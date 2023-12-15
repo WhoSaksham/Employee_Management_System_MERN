@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .registered-employees {
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+    .all-employees,
+    .registered-employees {
+        align-items: center;
+        justify-content: center;
+    }
+}
